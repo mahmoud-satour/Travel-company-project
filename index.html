@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300&family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- google fonts -->
+
+    <!-- start css links -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- end css links -->
+
+    <!-- start animation link -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- end animation link -->
+
+    <!-- awsome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- awsome cdn -->
+
+    <title>Travel Company Website</title>
+</head>
+<body>
+
+    <!-- start header section -->
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top shadow">
+            <div class="container">
+                <a class="navbar-brand" href="#"><i class="fas fa-paper-plane"></i>travel</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler"><i class="fa-solid fa-bars" style="color: aqua;"></i></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#home">home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">about</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#destination">destination</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#services">services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#gallery">gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#blogs">blogs</a>
+                        </li>
+                    </ul>
+                    <button class="btn my-2 my-sm-0" type="submit">book now</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- end header section -->
+
+    <!-- start home section -->
+
+    <section class="home" id="home">
+        <div class="container">
+            <div class="content text-center">
+                <span>follow us</span>
+                <h3>to the unknown</h3>
+                <p>Travel agency is a confidential seller/ public service that present tourism related services to the public on behalf of dealers like hotel, package tour, railways, rentals car, airlines, sea ways, and airlines.</p>
+                <a class="btn btn-lg">book now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- end home section -->
+
+    <!-- start about us section -->
+
+    <section class="about" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 col-12" data-aos="fade-right">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                            <video src="images/about-vid-1.mp4" autoplay loop class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <video src="images/about-vid-2.mp4" autoplay loop class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <video src="images/about-vid-3.mp4" autoplay loop class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-target="#carouselExampleIndicators" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-target="#carouselExampleIndicators" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-12" data-aos="fade-left">
+                    <div class="content">
+                        <span>Why Choose Us?</span>
+                        <h2>Nature's Majesty Awaits You</h2>
+                        <p>addition to trading with regular tourists the majority agencies have a separate department committed to making travel arrangements for commercial travelers and a number of travel agencies focus in commercial travel only</p>
+                        <a class="btn">read more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- end about us section -->
+
+    <!-- start destenation section -->
+
+    <section class="destination" id="destination">
+        <div class="container">
+            <span>Our Destination</span>
+            <h2>Make Yours Destination</h2>
+            <div class="row">
+                <div class="col-lg-4 col-12" data-aos="fade-right">
+                    <div class="box">
+                            <div class="imgBx">
+                                <img src="images/des-1.jpg" class="img-fluid" alt=""> 
+                            </div>
+                            <div class="content">
+                                <div class="contentBx">
+                                    <a class="btn">read more</a>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-12" data-aos="fade-right">
+                    <div class="box">
+                            <div class="imgBx">
+                                <img src="images/des-2.jpg" class="img-fluid" alt=""> 
+                            </div>
+                            <div class="content">
+                                <div class="contentBx">
+                                    <a class="btn">read more</a>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-12" data-aos="fade-right">
+                    <div class="box">
+                            <div class="imgBx">
+                                <img src="images/des-7.jpg" class="img-fluid" alt=""> 
+                            </div>
+                            <div class="content">
+                                <div class="contentBx">
+                                    <a class="btn">read more</a>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-12" data-aos="fade-right">
+                    <div class="box">
+                            <div class="imgBx">
+                                <img src="images/des-4.jpg" class="img-fluid" alt=""> 
+                            </div>
+                            <div class="content">
+                                <div class="contentBx">
+                                    <a class="btn">read more</a>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-12" data-aos="fade-right">
+                    <div class="box">
+                            <div class="imgBx">
+                                <img src="images/des-8.jpg" class="img-fluid" alt=""> 
+                            </div>
+                            <div class="content">
+                                <div class="contentBx">
+                                    <a class="btn">read more</a>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-12" data-aos="fade-right">
+                    <div class="box">
+                            <div class="imgBx">
+                                <img src="images/des-6.jpg" class="img-fluid" alt=""> 
+                            </div>
+                            <div class="content">
+                                <div class="contentBx">
+                                    <a class="btn">read more</a>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- end destenation section -->
+
+    <!-- start services section -->
+
+    <section class="services" id="services">
+        <div class="container">
+            <span>Our Services</span>
+            <h2>Countless Expericences</h2>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-6 col-12" data-aos="fade-right">
+                    <div class="box text-center">
+                        <i class="fa-solid fa-globe"></i>
+                        <h3>Worldwide</h3>
+                        <p>Agency’s major role is to perform as a representative. Promoting travel goods and services on behalf of a dealer</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6 col-12" data-aos="fade-right">
+                    <div class="box text-center">
+                        <i class="fas fa-hiking"></i>
+                        <h3>Adventures</h3>
+                        <p>Forming a new business in this subject the big capital requirements are less. Most require investment are for the</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6 col-12" data-aos="fade-right">
+                    <div class="box text-center">
+                        <i class="fas fa-utensils"></i>
+                        <h3>Food & Drinks</h3>
+                        <p>Forming a new business in this subject the big capital requirements are less. Most require investment are for the</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6 col-12" data-aos="fade-right">
+                    <div class="box text-center">
+                        <i class="fas fa-hotel"></i>
+                        <h3>Affordable Hotels</h3>
+                        <p>Forming a new business in this subject the big capital requirements are less. Most require investment are for the</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6 col-12" data-aos="fade-right">
+                    <div class="box text-center">
+                        <i class="fas fa-wallet"></i>
+                        <h3>Affordable Price</h3>
+                        <p>Forming a new business in this subject the big capital requirements are less. Most require investment are for the</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6 col-12" data-aos="fade-right">
+                    <div class="box text-center">
+                        <i class="fas fa-headset"></i>
+                        <h3>24/7 Support</h3>
+                        <p>Forming a new business in this subject the big capital requirements are less. Most require investment are for the</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- start services section -->
+
+    <!-- start gallery section -->
+
+    <section class="gallery" id="gallery">
+        <div class="container">
+            <span>Our Gallery</span>
+            <h2>We Record Memories</h2>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-12" data-aos="fade-right">
+                    <div class="box">
+                        <div class="imgBx">
+                            <img src="images/gallery-img-1.jpg" class="img-fluid" alt=""> 
+                        </div>
+                        <div class="content">
+                            <div class="contentBx text-center">
+                                <p>travel spot</p>
+                                <h6>Maldive</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12" data-aos="fade-right">
+                    <div class="box">
+                        <div class="imgBx">
+                            <img src="images/gallery-img-7.jpg" class="img-fluid" alt=""> 
+                        </div>
+                        <div class="content">
+                            <div class="contentBx text-center" style="color: white;">
+                                <p>travel spot</p>
+                                <h6>Greenland</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12" data-aos="fade-right">
+                    <div class="box">
+                        <div class="imgBx">
+                            <img src="images/gallery-img-3.jpg" class="img-fluid" alt=""> 
+                        </div>
+                        <div class="content">
+                            <div class="contentBx text-center">
+                                <p>travel spot</p>
+                                <h6>japan</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12" data-aos="fade-right">
+                    <div class="box">
+                        <div class="imgBx">
+                            <img src="images/gallery-img-4.jpg" class="img-fluid" alt=""> 
+                        </div>
+                        <div class="content">
+                            <div class="contentBx text-center">
+                                <p>travel spot</p>
+                                <h6>Brazil</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12" data-aos="fade-right">
+                    <div class="box">
+                        <div class="imgBx">
+                            <img src="images/gallery-img-8.jpg" class="img-fluid" alt=""> 
+                        </div>
+                        <div class="content">
+                            <div class="contentBx text-center" style="color: white;">
+                                <p>travel spot</p>
+                                <h6>Alaska</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12" data-aos="fade-right">
+                    <div class="box">
+                        <div class="imgBx">
+                            <img src="images/gallery-img-6.jpg" class="img-fluid" alt=""> 
+                        </div>
+                        <div class="content">
+                            <div class="contentBx text-center">
+                                <p>travel spot</p>
+                                <h6>miami</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- end gallery section -->
+
+    <!-- start blog section -->
+
+    <section class="blogs" id="blogs">
+        <div class="container">
+            <span>Blogs & Posts</span>
+            <h2>We Untold Stories</h2>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-12" data-aos="fade-right">
+                    <div class="box">
+                        <div class="image">
+                            <img src="images/blog-1.jpg" class="img-fluid" alt="">
+                        </div>
+                        <h5>Life Is A Journey, Not A Destination</h5>
+                        <p>Travelling is the best way to learn new things, whether it be a new language or new culture because you’re experiencing it first hand instead of just reading or looking at pictures.</p>
+                        <div class="info">
+                            <span><i class="fa-solid fa-clock"></i>21st May, 2021</span>
+                            <span><i class="fa-solid fa-user"></i>By Admin</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12" data-aos="fade-right">
+                    <div class="box shadow">
+                        <div class="image">
+                            <img src="images/blog-2.jpg" class="img-fluid" alt="">
+                        </div>
+                        <h5>Life Is A Journey, Not A Destination</h5>
+                        <p>Travelling is the best way to learn new things, whether it be a new language or new culture because you’re experiencing it first hand instead of just reading or looking at pictures.</p>
+                        <div class="info">
+                            <span><i class="fa-solid fa-clock"></i>15st oct, 2021</span>
+                            <span><i class="fa-solid fa-user"></i>By Admin</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12" data-aos="fade-right">
+                    <div class="box">
+                        <div class="image">
+                            <img src="images/blog-3.jpg" class="img-fluid" alt="">
+                        </div>
+                        <h5>Life Is A Journey, Not A Destination</h5>
+                        <p>Travelling is the best way to learn new things, whether it be a new language or new culture because you’re experiencing it first hand instead of just reading or looking at pictures.</p>
+                        <div class="info">
+                            <span><i class="fa-solid fa-clock"></i>2st dec, 2021</span>
+                            <span><i class="fa-solid fa-user"></i>By Admin</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- end blog section -->
+
+    <!-- start banner section -->
+
+    <section class="banner" data-aos="fade-right">
+        <div class="container-fluid">
+            <div class="content text-center">
+                <span>Start Your Adventures</span>
+                <h1>Let's Explore This World</h1>
+                <p>Travelling is an amazing way to learn a lot of things in life. A lot of people around the world travel every year to many places.</p>
+                <a class="btn">book now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- end banner section -->
+
+    <!-- start footer section -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-4 col-6 col-12" data-aos="fade-right">
+                    <a class="navbar-brand" href="#"><i class="fas fa-paper-plane"></i>travel</a>
+                    <p>Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Obcaecati, Ad?</p>
+                    <div class="icons">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6 col-12" data-aos="fade-right">
+                    <h2>Quick Links</h2>
+                    <div class="links">
+                        <a href="#home"> <i class="fa-solid fa-arrow-right"></i> home</a><br>
+                        <a href=""> <i class="fa-solid fa-arrow-right"></i> about</a><br>
+                        <a href="#"> <i class="fa-solid fa-arrow-right"></i> destenation</a><br>
+                        <a href="#"> <i class="fa-solid fa-arrow-right"></i> services</a><br>
+                        <a href="#"> <i class="fa-solid fa-arrow-right"></i> gallery</a><br>
+                        <a href=""> <i class="fa-solid fa-arrow-right"></i> blogs</a><br>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6 col-12" data-aos="fade-right">
+                    <h2>contact info</h2>
+                    <div class="personalInfo">
+                        <p><i class="fas fa-map"></i> Mansoura-Egypt</p>
+                        <p><i class="fas fa-phone"></i> 01012930303</p>
+                        <p><i class="fas fa-envelope"></i> mahmoudsatour98@gmail.com</p>
+                        <p><i class="fas fa-clock"></i> 7:00am - 10:00pm</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6 col-12" data-aos="fade-right">
+                    <h2>Newsletter</h2>
+                    <form>
+                        <label for="">Subscribe For Latest Updates</label>
+                        <input type="email" placeholder="enter your email" class="form-control">
+                        <a class="btn">subscribe</a>
+                    </form>
+                </div>
+            </div>
+            <h6 class="text-center">Created By <span>Eng Mahmoud Satour</span> | All Rights Reserved</h6>
+        </div>
+    </footer>
+
+    <!-- end footer section -->
+
+
+
+    <a id="button"></a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- start js animation -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            delay: 300,
+            duration: 1000,
+        });
+    </script>
+    <!-- end js animation -->
+
+    <!-- start js links -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+    <!-- end js links -->
+</body>
+</html>
